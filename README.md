@@ -1,10 +1,17 @@
 🎮 Interactive Quiz App
+
 This project is my final project for the subject Event-Driven Programming. It demonstrates how to use JavaScript with HTML and CSS to build a responsive and interactive quiz game based on user actions and events.
 
+▶️ Play the Quiz Game Online
+You can try the game live here:
+https://quizzygameskie.netlify.app/
+
 🧠 Description
+
 The Interactive Quiz App is a simple web-based game that tests the user's knowledge through 10 multiple-choice questions. It uses event-driven programming principles where the game responds to user interactions such as button clicks and selections.
 
 Features:
+
 🔄 10 Questions with 4 answer choices each.
 
 🎯 Real-time feedback on answers ("Correct!" or "Wrong answer").
