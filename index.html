@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Quiz Game</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="start-screen" class="fade-in">
+    <h1>🎯 Welcome to the Quiz Game!</h1>
+    <button id="start-btn">Start Quiz</button>
+    <button id="music-btn">🔊 Music: On</button>
+  </div>
+
+  <div class="quiz-container fade-in" id="quiz-box" style="display:none;">
+    <h1>🧠 Quiz Time</h1>
+    <div id="question-box">
+    <div id="timer-bar"></div>
+    <p id="timer-text">⏱ Time: 10s</p>
+    <h2 id="question">Loading...</h2>
+      <div id="options"></div>
+      <p id="feedback"></p>
+      <button id="next-btn">Next</button>
+      <button id="restart-btn" style="display:none;">Restart Quiz</button>
+      <button id="exit-btn" style="display:none;">Exit to Menu</button>
+      <p id="score">Score: 0</p>
+    </div>
+  </div>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <audio id="correctSound" src="msc/correct.mp3"></audio>
+  <audio id="failSound" src="msc/fail.mp3"></audio>
+  <audio id="winSound" src="msc/win.mp3"></audio>
+  <audio id="bgMusic" src="msc/bgmusic.mp3" loop></audio>
+
+  <script src="confetti.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
