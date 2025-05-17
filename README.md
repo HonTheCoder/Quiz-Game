@@ -1,90 +1,43 @@
 🎮 Interactive Quiz App
 
-This project is my final project for the subject Event-Driven Programming. It demonstrates how to use JavaScript with HTML and CSS to build a responsive and interactive quiz game based on user actions and events.
+- This is my final project for Event-Driven Programming, built with HTML, CSS, and JavaScript. It’s a fun, interactive quiz game with 10 multiple-choice questions that reacts to your clicks and choices.
 
-▶️ Play the Quiz Game Online
+▶️ Play It Here
 
-You can try the game live here:
 https://quizzygameskie.netlify.app/
 
-🧠 Description
+🤷‍♂️ What’s Inside?
 
-The Interactive Quiz App is a simple web-based game that tests the user's knowledge through 10 multiple-choice questions. It uses event-driven programming principles where the game responds to user interactions such as button clicks and selections.
+- 10 questions, each with 4 answer options
 
-Features:
+- Instant feedback: “Correct!” or “Wrong answer”
 
-🔄 10 Questions with 4 answer choices each.
+- Score shown at the end
 
-🎯 Real-time feedback on answers ("Correct!" or "Wrong answer").
+- Background music you can toggle on/off
 
-📊 Final score is displayed at the end of the game.
+- Sounds for right and wrong answers
 
-🎵 Sound effects:
+- Restart or return to the main menu anytime
 
-Correct answer: success sound
+🤔 Why This Project?
 
-Wrong answer: error sound
+To practice event-driven programming: handling clicks, updating the UI dynamically, and managing game flow with buttons and labels.
 
-Background music during the game
+❓ How It Works:
 
-Option to toggle background music ON/OFF from the main menu
+- Start at the main menu
 
-⏱️ Timer feature.
+- Answer questions one by one
 
-🔁 Option to Restart the game or go back to the Main Menu.
+- Hear sounds & get feedback on answers
 
-🎯 Objective
+- See your score at the end
 
-To apply the core concepts of event-driven programming by creating a graphical quiz game that reacts to user input and updates the interface dynamically.
+- Restart or exit as you like
 
-✅ Learning Outcomes Achieved
+⚙️ Tools Used
 
-Implemented event handlers to react to user interactions.
+- HTML, CSS, JavaScript
 
-Managed GUI components like buttons, labels, and score updates.
-
-Dynamically updated the user interface based on events.
-
-Used control structures (if/else, loops) in response to events.
-
-🧩 How it Works
-
-The user starts from the Main Menu.
-
-The quiz displays one question at a time.
-
-When the user selects an answer:
-
-A sound plays based on correctness.
-
-Feedback is shown ("Correct!" or "Wrong answer").
-
-Score is updated.
-
-The "Next" button shows the next question.
-
-After 10 questions, the app shows the final score with options to Restart or return to Main Menu.
-
-🛠️ Tools Used
-
-HTML – Structure
-
-CSS – Styling
-
-JavaScript – Logic & Event Handling
-
-Audio Files – For background music and answer sound effects
-
-🧪 Completion Criteria
-
- GUI with question labels and answer buttons
-
- Interactive event handling for answers and next button
-
- Score tracking and real-time feedback
-
- Final score display with restart option
-
- Background music with toggle option
-
- Sound effects for correct/wrong answers
+- Audio for music and effects
