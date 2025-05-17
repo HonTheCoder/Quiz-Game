@@ -3,6 +3,7 @@
 This project is my final project for the subject Event-Driven Programming. It demonstrates how to use JavaScript with HTML and CSS to build a responsive and interactive quiz game based on user actions and events.
 
 ▶️ Play the Quiz Game Online
+
 You can try the game live here:
 https://quizzygameskie.netlify.app/
 
@@ -33,9 +34,11 @@ Option to toggle background music ON/OFF from the main menu
 🔁 Option to Restart the game or go back to the Main Menu.
 
 🎯 Objective
+
 To apply the core concepts of event-driven programming by creating a graphical quiz game that reacts to user input and updates the interface dynamically.
 
 ✅ Learning Outcomes Achieved
+
 Implemented event handlers to react to user interactions.
 
 Managed GUI components like buttons, labels, and score updates.
@@ -45,6 +48,7 @@ Dynamically updated the user interface based on events.
 Used control structures (if/else, loops) in response to events.
 
 🧩 How it Works
+
 The user starts from the Main Menu.
 
 The quiz displays one question at a time.
@@ -62,6 +66,7 @@ The "Next" button shows the next question.
 After 10 questions, the app shows the final score with options to Restart or return to Main Menu.
 
 🛠️ Tools Used
+
 HTML – Structure
 
 CSS – Styling
@@ -71,6 +76,7 @@ JavaScript – Logic & Event Handling
 Audio Files – For background music and answer sound effects
 
 🧪 Completion Criteria
+
  GUI with question labels and answer buttons
 
  Interactive event handling for answers and next button
